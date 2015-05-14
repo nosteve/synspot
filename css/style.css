@@ -1,0 +1,156 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  /*height:100%;*/
+}
+
+body {
+	margin-top: 1.0em;
+	color: #eee;
+	background-color: #151520;
+	font-family: "DejaVuSansMono", "DejaVu Sans Mono", monospace;
+	height:100%;
+	margin-bottom:12em;
+}
+
+#ribbon {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 0;
+}
+
+#container {
+	margin: 0 auto;
+	width: 700px;
+}
+
+h1 {
+	font-size: 3.0em;
+	color: #229;
+	margin-bottom: 3px;
+}
+
+h2 {
+	margin-top: 40px;
+	font-size: 1.2em;
+	color: #77f;
+}
+
+a {
+	color: #44a;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.info {
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 10em;
+	border: 1px solid #ccc;
+    	border-width: 1px 0;    
+    	text-align: left;
+    	background-color: black;
+    	position: fixed;   /* new */
+    	width: 100%;  /* new */
+	margin-top: 20px;
+}
+
+.download {
+	float: right;
+}
+
+.download img {
+	border-style: none;
+	width: 90px;
+}
+
+pre {
+	background: #000;
+	color: #fff;
+	padding: 15px;
+}
+
+footer {
+	text-align: center;
+	padding-top: 30px;
+	font-style: italic;
+}
+@charset "utf-8";
+
+.centerer {
+	text-align: center;
+}
+
+#game {
+	font-size: 20px;
+	background-color: #000;
+}
+
+.indexlisting {
+	text-align: left;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.left-column, .right-column, footer, header {  border: 1px solid  #ccc; padding: 1.25em; margin: .5em; }
+.nav {
+  list-style: none;
+  margin-left: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.nav > li,
+.nav > li > a {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+
+.inline-items {
+  margin-top: 0;
+}
+
+.inline-items li {
+  margin-left: 0;
+  border-left: 1px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.inline-items li:first-child {
+  margin-left: 0;
+  border: none;
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+.inline-items li:last-child {
+  padding-right: 0;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 47.5em ) {
+    .columns-container { 
+    float: left;
+  }
+
+  .left-column { 
+    margin-right: 20em;
+    float: left;
+  }
+
+  .right-column { 
+    width: 18.75em;
+    margin-left: -19.3em;
+    float: left;
+  }   
+}

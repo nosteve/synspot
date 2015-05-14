@@ -1,0 +1,20 @@
+{
+    "author": "nosteve <nosteve@fastmail.net>",
+    "name": "synspot",
+    "description": "Interactive psychostimulating character-mode depictions of interconnect activity. You know, for kids.",
+    "homepage": "https://github.com/nosteve/synspot",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/nosteve/synspot.git"
+    },
+    "engines": {
+        "node": ">=0.12.2"
+    },
+    "dependencies": {
+        "insubnet": ">= 0.0.8",
+        "maxmind": ">= 0.5.5",
+        "pcap":   ">= 2.0.1"
+    }
+}
+
